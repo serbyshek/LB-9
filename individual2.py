@@ -63,7 +63,6 @@ class Triangle(Triad):
                                               / (2 * self.get_a() * self.get_b())))
         return self.__alpha, self.__beta, self.__gamma
 
-    @property
     def get_angles(self):
         return self.__angles()
 
